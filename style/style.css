@@ -46,25 +46,14 @@ header {
     text-decoration: none;
 }
 
-.grid-container {
+.principal {
+    width: 94%;
+    margin: 3rem auto;
+}
+
+.galeria {
     display: grid;
-    grid-template-columns: repeat(4, 250px);
-    grid-template-rows: repeat(4, 250px);
-    gap: 10px; /* Espaçamento entre as células */
-}
-
-.grid-block {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-}
-
-/* Exemplo de estilos para as imagens */
-.grid-block:nth-child(odd) {
-    background-color: #f0f0f0; /* Cor de fundo alternativa para as células ímpares */
-}
-
-.grid-block:nth-child(even) {
-    background-color: #ccc; /* Cor de fundo alternativa para as células pares */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 5vw);
+    gap: 0.5rem;
 }
