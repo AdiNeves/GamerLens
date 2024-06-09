@@ -1,0 +1,81 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: helvetica, arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-image: linear-gradient(#4A6FA4, #2b415f);
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-logo {
+    height: 250px;
+    width: 250px;
+}
+
+.navbar {
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.principal {
+    width: 94%;
+    margin: 3rem auto;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 40px auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    column-gap: 20px;
+    row-gap: 40px;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.photo {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.caption {
+    margin-top: 10px;
+}
